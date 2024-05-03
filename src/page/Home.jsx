@@ -1,7 +1,7 @@
 import Content from "../components/content/index"
 import { useState, useEffect } from 'react';
-import SideBar from '../components/SideBar';
-import Layout from '../components/common/Layout';
+import SideBar from '../components/common/SideBar';
+import Layout from '../layout/Layout';
 
 const Home = () => {
     const [isMobile, setIsMobile] = useState(false);

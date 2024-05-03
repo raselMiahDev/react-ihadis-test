@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import HadisList from "./book&chapter/HadisList";
-import ContentDetails from "../details-read/index"
+import ContentDetails from "../content-details/DetailsCard"
 import { IoIosClose,IoIosMenu } from "react-icons/io";
-import Settings from "../navbar/Settings";
+             
 
 const Index = () => {
   const [isOpen, setIsOpen] = useState(false);

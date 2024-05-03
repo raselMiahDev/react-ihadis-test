@@ -7,7 +7,7 @@ import Features from "./Features";
 
 const DetailsCard = () => {
   return (
-      <div className="sm:h-32 md:h-[500px] lg:h-[600px] xl:h-[800px] overflow-auto">
+      <div className="h-96 md:h-[480px] overflow-auto">
         <div className="bg-[#FAFBFB] py-5 px-2 border-b rounded-t-lg">
           <Breadcrumb/>
         </div>
@@ -51,7 +51,7 @@ const DetailsCard = () => {
             <GiCartwheel color="green" size={30} />
             <h1 className="noto-sans-bengali text-green-700 text-2xl">১</h1>
           </div>
-          <h1 className="py-5 text-xl text-gray-800 rubik-font text-right">
+          <h1 className="py-5 text-xl text-gray-800 rubik-font text-right leading-relaxed">
             حَدَّثَنَا الْحُمَيْدِيُّ عَبْدُ اللَّهِ بْنُ الزُّبَيْرِ، قَالَ
             حَدَّثَنَا سُفْيَانُ، قَالَ حَدَّثَنَا يَحْيَى بْنُ سَعِيدٍ
             الأَنْصَارِيُّ، قَالَ أَخْبَرَنِي مُحَمَّدُ بْنُ إِبْرَاهِيمَ

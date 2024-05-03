@@ -6,9 +6,9 @@ import { useState } from "react";
 import FilterPopUp from "./FilterPopUp";
 
 const Navbar = () => {
-  const [visibleModel, setVisibleModel] = useState(false);
-  const showModel = () => {
-    setVisibleModel(true);
+  const [screenMood, setScreenMood] = useState(false);
+  const handleMood = () => {
+    setScreenMood(true);
   };
   return (
     <div className="flex justify-between px-5 md:px-10 py-2 md:py-5 border md:border-none">
@@ -124,7 +124,7 @@ const Navbar = () => {
               </div>
             </div>
           </div>
-          <span className="bg-gray-200 p-2 rounded-lg">
+          <span onClick={handleMood} className="bg-gray-200 p-2 rounded-lg">
             <LuMoonStar size={20} />
           </span>
         </div>
