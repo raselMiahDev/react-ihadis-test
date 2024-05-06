@@ -2,4 +2,4 @@ ihahis
 
 Tecnology : React, Tailwind css
 
-Live LInk : 
+Live LInk : https://ihadis-re.netlify.app/

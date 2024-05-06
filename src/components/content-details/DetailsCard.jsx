@@ -7,7 +7,7 @@ import Features from "./Features";
 
 const DetailsCard = () => {
   return (
-      <div className="h-96 md:h-[480px] overflow-auto">
+      <div className="h-full md:h-[600px] lg:h-[800px] overflow-auto">
         <div className="bg-[#FAFBFB] py-5 px-2 border-b rounded-t-lg">
           <Breadcrumb/>
         </div>
